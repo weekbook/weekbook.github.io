@@ -2,7 +2,7 @@
 layout: single
 title:  "Java Script 기초 - 2"
 categories: Java Script
-tag: [foundation, Java Script]
+tag: [foundation, JavaScript]
 toc: true
 author_profile: false
 sidebar:
@@ -68,13 +68,9 @@ console.log(n * 32); // 콘솔에 0 으로 로그가 남음.
 <body>
     <script>
         var id = prompt('아이디를 입력해주세요');
-        if(id=='weekbook'){
-            var password = prompt('비밀번호를 입력해주세요');
-            if(password=='111111'){
-                alert('로그인 하셨습니다. ' + id + '님 반갑습니다.');
-            }else{
-                alert('비밀번호가 틀립니다.')
-            }
+        var password = prompt('비밀번호를 입력해주세요');
+        if((id=='weekbook' || 'gugucon' || 'strawberry') && password=='111111'){
+            alert('로그인 하셨습니다. ' + id + '님 반갑습니다.');
         }else{
             alert('아이디가 일치하지 않습니다.');
         }
@@ -95,4 +91,25 @@ if(!undefined){
 ```
 
 빈문자열과 undefined는 false로 간주한다.
+
+### 반복문
+
+while이용
+
+```html
+var i = 0;
+while(i<10){
+             document.write("Coding everybody" +i+ "<br>");
+             i = i + 1;
+             }
+```
+
+for이용
+
+```html
+var i = 0;
+for(var i = 0; i < 10; i++){
+                      document.write("Coding everybody" +i+ "<br>");
+                      }
+```
 

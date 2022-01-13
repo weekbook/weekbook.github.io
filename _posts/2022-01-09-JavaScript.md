@@ -2,7 +2,7 @@
 layout: single
 title:  "Java Script 기초"
 categories: Java Script
-tag: [foundation, Java Script]
+tag: [foundation, JavaScript]
 toc: true
 author_profile: false
 sidebar:
