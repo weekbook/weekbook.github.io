@@ -99,3 +99,40 @@ numbering = function(){
 ```
 
 함수의 정의를 하는 동시에 호출하는 방법이다.
+
+### 배열
+
+연관된 데이터를 모아서 통으로 관리하기 위해서 사용하는 데이터 타입
+
+```javascript
+        var member = ['egoing', 'hello', 'coding']
+        alert(member[0])
+        alert(member[1])
+        alert(member[2])
+```
+
+배열 각각의 데이터를 원소(Element)이라고 부르며, 0,1,2는 인덱스이다.
+
+```javascript
+        function get_members(){
+            return ['egoing', 'hello', 'coding'];
+        }
+        var members = get_members();
+        document.write(members[0])
+        document.write(members[1])
+        document.write(members[2])
+```
+
+기존에는 함수를 통해 하나의 값만 리턴을 했다면, 위 예제는 배열을 통해 하나의 함수를 이용하여 여러개의 정보를 반환할 수 있다.
+
+#### 배열의 사용
+
+```javascript
+        for(var i = 0; i < members.length; i++){
+            document.write(members[i] + "<br>")
+        }
+```
+
+length를 사용하여 members 배열의 길이를 알 수 있다. members 변수의 길이가 3이므로
+
+0, 1, 2 즉 3번 반복하며 배열의 모든 원소값을 출력한다.
