@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java Script 기초 - 2"
+title:  "Java Script(선언, 변수 할당, 반복문, 디버거)"
 categories: Java Script
 tag: [foundation, JavaScript]
 toc: true

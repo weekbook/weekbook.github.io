@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java Script 기초 - 3"
+title:  "Java Script(함수, 배열)"
 categories: Java Script
 tag: [foundation, JavaScript]
 toc: true

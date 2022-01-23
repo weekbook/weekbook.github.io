@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java Script 기초"
+title:  "Java Script란? / 비교 연산자"
 categories: Java Script
 tag: [foundation, JavaScript]
 toc: true
