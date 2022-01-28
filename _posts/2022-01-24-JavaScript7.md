@@ -126,3 +126,57 @@ $는 jQuery의 특수한 객체이며, 이 객체가 가지고 있는 메소드�
 
 첫 번째 인자로 json타입의 데이터의 url을 적어주고, 두 번째 인자는 콜백 함수인데 서버 통신을 통한 데이터가 result 부분에 들어가서 console.log로 출력되게 하는 예제이다.
 
+### 클로저
+
++ 클로저(closure)는 내부함수가 외부함수의 맥락에 접근할 수 있는 것을 가르킨다. 
+
+#### 내부함수
+
+```javascript
+        function outter() {
+            function inner() {
+                var title = 'coding everybody';
+                alert(title);
+            }
+            inner();
+        }
+        outter();
+```
+
+자바스크립트는 함수 안에서 또 다른 함수를 선언할 수 있다.
+
+함수 outter의 내부에는 함수 inner가 정의 되어 있다. 함수 inner를 내부 함수라고 한다.
+
+```javascript
+        function outter() {
+            var title = 'coding everybody';
+            function inner() {
+                alert(title);
+            }
+            inner();
+        }
+        outter();
+```
+
+위 예제는 내부함수에서 title을 호출했을때 외부함수의 지역변수에 접근할 수 있음을 보여줌
+
+#### 클로저
+
+내부함수는 외부함수의 지역변수에 접근 할 수 있는데 외부함수의 실행이 끝나고 외부함수가 소멸된 이후에도 내부함수가 외부함수의 변수에 접근할 수 있다. 이러한 매커니즘을 클로저라고한다.
+
+```javascript
+        function outter(){
+            var title = 'coding everybody';
+            return function(){
+                alert(title);
+            }
+        }
+        inner = outter();
+        inner();
+```
+
+위 예제를 실행하면 정상적으로 coding everybody가 뜨게된다.
+
+inner = outter(); 부분에서 outter함수가 종료되어 죽었는데도 사용이 가능하다.
+
+즉, 외부함수가 종료된 이후에도 내부함수를 통해서 접근할 수 있다.
