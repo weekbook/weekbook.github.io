@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java Script(값으로서 함수와 콜백)"
+title:  "Java Script(값으로서 함수와 콜백 / 클로저)"
 categories: Java Script
 tag: [foundation, JavaScript]
 toc: true
