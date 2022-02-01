@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(객체, 모듈, 라이브러리)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

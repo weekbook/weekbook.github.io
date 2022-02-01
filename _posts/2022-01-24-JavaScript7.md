@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(값으로서 함수와 콜백 / 클로저)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

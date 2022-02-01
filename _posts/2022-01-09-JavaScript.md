@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script란? / 비교 연산자"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

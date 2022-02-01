@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(객체지향프로그래밍 / 생성자와 new / 전역객체)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

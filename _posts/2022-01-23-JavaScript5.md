@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(UI/API, 정규 표현식)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

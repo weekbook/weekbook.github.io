@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(함수, 배열)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false
