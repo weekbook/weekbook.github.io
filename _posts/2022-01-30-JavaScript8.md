@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(매개변수 / 함수호출방법)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false

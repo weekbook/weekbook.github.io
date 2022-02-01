@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java Script(선언, 변수 할당, 반복문, 디버거)"
-categories: Java Script
+categories: JavaScript
 tag: [foundation, JavaScript]
 toc: true
 author_profile: false
