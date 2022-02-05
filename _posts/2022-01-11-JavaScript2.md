@@ -130,6 +130,20 @@ for(var i = 0; i < 10; i++){
 
 i가 1일때 다시 j는 0이 되면서 문자 1 과 문자 0이 붙어서 10이 만들어진다
 
+#### 피라미드 별 출력
+
+``` javascript
+			for(let i = 0; i < 8; i++)  {
+                for(let j = 1; j<8-i;j++){
+                    document.write("&nbsp")
+                }
+                for(let k = 0; k<i * 2+1; k++){
+                    document.write("*");
+                }
+                document.write("<br>")
+            }
+```
+
 ### Debugger
 
 + 디버거는 코드가 어떻게 동작하며 오류를 잡아내는데 매우 중요하다
